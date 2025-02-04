@@ -1,0 +1,19 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+' # Push events to any matching semantic tag
+
+jobs:
+  TestTemplate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tercen/actions/workflow-release@main
+        with:
+          git-repository: ${GITHUB_REPOSITORY}
+          # branch: main
+          tag: ${GITHUB_REF##*/}
+          git-token: ${{ github.token }}
