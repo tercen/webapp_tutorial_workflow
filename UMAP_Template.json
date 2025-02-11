@@ -54,7 +54,7 @@
    "kind": "TableStep",
    "id": "f4d5e14a-6d75-4d44-ad77-7ae106bd9fb0",
    "groupId": "",
-   "name": "InputData",
+   "name": "FCS Table",
    "inputs": [],
    "outputs": [
     {
@@ -74,7 +74,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 255.505,
-     "y": 107.5
+     "y": 108.5
     }
    },
    "state": {
@@ -89,7 +89,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "b006b4f8-8d37-431b-8876-c5e965cffc5d",
+     "id": "406690d7-0cd1-4b9e-81af-f343b2f53ed4",
      "relations": []
     },
     "filterSelector": "csv"
@@ -282,7 +282,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 5000
+     "nRows": 4000
     },
     "filters": {
      "kind": "Filters",
@@ -296,7 +296,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Ba138Di",
+         "stringValue": "CD95",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -307,7 +307,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Bi209Di",
+         "stringValue": "CD8",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -318,7 +318,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Ce140Di",
+         "stringValue": "CD45",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -329,29 +329,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Dy161Di",
-         "factor": {
-          "kind": "Factor",
-          "name": "gs0.variable",
-          "type": "string"
-         },
-         "preProcessors": []
-        },
-        {
-         "kind": "FilterExpr",
-         "filterOp": "equals",
-         "stringValue": "Dy162Di",
-         "factor": {
-          "kind": "Factor",
-          "name": "gs0.variable",
-          "type": "string"
-         },
-         "preProcessors": []
-        },
-        {
-         "kind": "FilterExpr",
-         "filterOp": "equals",
-         "stringValue": "Dy163Di",
+         "stringValue": "CD4",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -492,13 +470,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 6
+     "nRows": 4
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "549c7af2-d150-4eb6-b906-e54abfad0a38"
+    "id": "8444f7fa-2d8b-483f-9848-420b3ca280a3"
    },
    "parentDataStepId": ""
   },
@@ -546,315 +524,9 @@
    "description": "Convert data from a wide format to a long format.",
    "model": {
     "kind": "MeltStepModel",
-    "factors": [
-     {
-      "kind": "Factor",
-      "name": "Y89Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru96Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru98Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru99Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru100Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru101Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru102Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Rh103Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ru104Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pd105Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pd106Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pd108Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pd110Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "In113Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "In115Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Sn120Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ba138Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "La139Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ce140Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pr141Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd142Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd143Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd144Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd145Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd146Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Sm147Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd148Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Sm149Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Nd150Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Eu151Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Sm152Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Eu153Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Sm154Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Gd155Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Gd156Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Gd157Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Gd158Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Tb159Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Gd160Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Dy161Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Dy162Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Dy163Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Dy164Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ho165Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Er166Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Er167Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Er168Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Tm169Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Er170Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Yb171Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Yb172Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Yb173Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Yb174Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Lu175Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Yb176Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ir191Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Ir193Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pt194Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pt195Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Pb208Di",
-      "type": "double"
-     },
-     {
-      "kind": "Factor",
-      "name": "Bi209Di",
-      "type": "double"
-     }
-    ],
+    "factors": [],
     "namespace": "gs0",
-    "selectionPattern": "",
+    "selectionPattern": "[^event_id][^fileId]",
     "factorType": "double",
     "gatherType": ""
    },
@@ -918,7 +590,7 @@
          "properties": [],
          "propertyValues": []
         },
-        "pointSize": 4
+        "pointSize": 5
        },
        "colors": {
         "kind": "Colors",
@@ -949,12 +621,12 @@
           {
            "kind": "DoubleColorElement",
            "color": 4456788,
-           "stringValue": "-7.361392388120294"
+           "stringValue": "-31378.661651611328"
           },
           {
            "kind": "DoubleColorElement",
            "color": 16639781,
-           "stringValue": "7.423660388216376"
+           "stringValue": "55634.95462036133"
           }
          ]
         }
@@ -1102,7 +774,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Ba138Di",
+         "stringValue": "CD45",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -1113,7 +785,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Bi209Di",
+         "stringValue": "CD4",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -1124,7 +796,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Ce140Di",
+         "stringValue": "CD8",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -1135,29 +807,7 @@
         {
          "kind": "FilterExpr",
          "filterOp": "equals",
-         "stringValue": "Dy161Di",
-         "factor": {
-          "kind": "Factor",
-          "name": "gs0.variable",
-          "type": "string"
-         },
-         "preProcessors": []
-        },
-        {
-         "kind": "FilterExpr",
-         "filterOp": "equals",
-         "stringValue": "Dy162Di",
-         "factor": {
-          "kind": "Factor",
-          "name": "gs0.variable",
-          "type": "string"
-         },
-         "preProcessors": []
-        },
-        {
-         "kind": "FilterExpr",
-         "filterOp": "equals",
-         "stringValue": "Dy163Di",
+         "stringValue": "CD95",
          "factor": {
           "kind": "Factor",
           "name": "gs0.variable",
@@ -1415,7 +1065,7 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 195.83333333333334,
+     "cellSize": 179.08333333333334,
      "offset": 0,
      "graphicalFactors": [
       {
@@ -1429,7 +1079,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 80.0,
+         "x": 78.01385498046875,
          "y": 0.0
         },
         "topLeft": {
@@ -1441,13 +1091,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 6
+     "nRows": 4
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c93694d8-b164-4d22-afa7-557e04eecf66"
+    "id": "a31ab614-04a2-4ac4-b2a1-9b5b090c9bff"
    },
    "parentDataStepId": ""
   }
