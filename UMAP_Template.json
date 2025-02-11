@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "4",
+ "id": "2",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -372,7 +372,7 @@
       "kind": "OperatorRef",
       "name": "UMAP",
       "version": "1.2.5",
-      "operatorId": "3",
+      "operatorId": "1",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
