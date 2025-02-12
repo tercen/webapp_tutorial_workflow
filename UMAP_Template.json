@@ -19,8 +19,17 @@
   "value": ""
  },
  "urls": [],
- "tags": [],
- "meta": [],
+ "tags": [
+  "Tutorial",
+  "Webapp"
+ ],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
+  }
+ ],
  "url": {
   "kind": "Url",
   "uri": ""
@@ -86,7 +95,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 246.24315643310547,
-     "y": 107.5
+     "y": 106.5
     }
    },
    "state": {

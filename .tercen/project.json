@@ -25,6 +25,6 @@
   "kind": "Url",
   "uri": "https://github.com/tercen/webapp_tutorial_workflow"
  },
- "version": "aa6c7937c6cd354d703d61551540974d77e0f2b1",
- "isPublic": false
+ "version": "0.0.1",
+ "isPublic": true
 }
