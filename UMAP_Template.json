@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "2",
+ "id": "3",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -89,12 +89,12 @@
     "kind": "Rectangle",
     "extent": {
      "kind": "Point",
-     "x": 107.51368713378906,
+     "x": 107.45454406738281,
      "y": 55.0
     },
     "topLeft": {
      "kind": "Point",
-     "x": 246.24315643310547,
+     "x": 246.2727279663086,
      "y": 106.5
     }
    },
@@ -147,7 +147,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 253.505,
-     "y": 306.5
+     "y": 305.5
     }
    },
    "state": {
@@ -303,7 +303,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4000
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -436,7 +436,7 @@
       {
        "kind": "Pair",
        "key": "ram",
-       "value": "20000000000"
+       "value": "0"
       },
       {
        "kind": "Pair",
@@ -491,7 +491,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4
+     "nRows": 1
     },
     "taskId": ""
    },
@@ -584,7 +584,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 383.505,
-     "y": 455.5
+     "y": 454.5
     }
    },
    "state": {
@@ -1057,7 +1057,7 @@
       {
        "kind": "Pair",
        "key": "ram",
-       "value": "20000000000"
+       "value": "0"
       },
       {
        "kind": "Pair",
@@ -1112,7 +1112,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4
+     "nRows": 1
     },
     "taskId": ""
    },
@@ -1153,7 +1153,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 136.505,
-     "y": 447.5
+     "y": 446.5
     }
    },
    "state": {
@@ -1309,7 +1309,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4000
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -1377,7 +1377,7 @@
       "kind": "OperatorRef",
       "name": "ClusterX",
       "version": "66cfb9a2eca17193280cfae4f00c0c92d9d3690c",
-      "operatorId": "3",
+      "operatorId": "2",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -1417,7 +1417,7 @@
       {
        "kind": "Pair",
        "key": "ram",
-       "value": "20000000000"
+       "value": "0"
       },
       {
        "kind": "Pair",
@@ -1472,7 +1472,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 4
+     "nRows": 1
     },
     "taskId": ""
    },
@@ -1513,7 +1513,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 135.505,
-     "y": 589.5
+     "y": 586.5
     }
    },
    "state": {
@@ -1945,7 +1945,7 @@
       {
        "kind": "Pair",
        "key": "ram",
-       "value": "20000000000"
+       "value": "0"
       },
       {
        "kind": "Pair",
