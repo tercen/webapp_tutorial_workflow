@@ -1417,7 +1417,7 @@
       {
        "kind": "Pair",
        "key": "ram",
-       "value": "0"
+       "value": "8000000000"
       },
       {
        "kind": "Pair",
